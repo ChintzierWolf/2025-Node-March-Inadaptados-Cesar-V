@@ -13,7 +13,7 @@ const authMiddleware = (req, res, next) => {
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
     // Validación opcional de campos esperados
-    if (!decoded.id || !decoded.role) {
+    if ((!decoded.id && !decoded.userId) || !decoded.role) {
       return res.status(403).json({ message: 'Token inválido: campos faltantes' });
     }
 
