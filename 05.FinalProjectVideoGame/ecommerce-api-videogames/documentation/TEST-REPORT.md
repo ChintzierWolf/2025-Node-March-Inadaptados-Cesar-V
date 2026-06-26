@@ -3,19 +3,19 @@
 Este documento sirve como bitácora para llevar un control del progreso de las pruebas manuales realizadas a través de Postman. Marca con una `x` (`[x]`) las pruebas que vayas completando exitosamente.
 
 ## 1. 🧑‍💻 Autenticación (`postman-auth-guide.md`)
-- [ ] **POST** `/api/auth/register` - Registrar un usuario administrador.
-- [ ] **POST** `/api/auth/register` - Registrar un usuario cliente.
-- [ ] **POST** `/api/auth/login` - Iniciar sesión (Admin) y obtener Token.
-- [ ] **POST** `/api/auth/login` - Iniciar sesión (Cliente) y obtener Token.
+- [x] **POST** `/api/auth/register` - Registrar un usuario administrador.
+- [x] **POST** `/api/auth/register` - Registrar un usuario cliente.
+- [x] **POST** `/api/auth/login` - Iniciar sesión (Admin) y obtener Token.
+- [x] **POST** `/api/auth/login` - Iniciar sesión (Cliente) y obtener Token.
 
 ## 2. 🗂️ Categorías (`postman-guide.md` - Categorías)
 *Requiere: Token de Administrador*
-- [ ] **POST** `/api/categories/categories` - Crear categoría principal (ej. Videojuegos).
-- [ ] **POST** `/api/categories/categories` - Crear subcategoría (ej. Xbox, con `parentCategory`).
-- [ ] **GET** `/api/categories/categories` - Obtener todas las categorías.
+- [x] **POST** `/api/categories/categories` - Crear categoría principal (ej. Videojuegos).
+- [x] **POST** `/api/categories/categories` - Crear subcategoría (ej. Xbox, con `parentCategory`).
+- [x] **GET** `/api/categories/categories` - Obtener todas las categorías.
 - [ ] **GET** `/api/categories/categories/:id` - Obtener una categoría por ID.
 - [ ] **PUT** `/api/categories/categories/:id` - Actualizar una categoría.
-- [ ] **DELETE** `/api/categories/categories/:id` - Eliminar una categoría.
+- [x] **DELETE** `/api/categories/categories/:id` - Eliminar una categoría.
 
 ## 3. 🎮 Productos (`postman-products-guide.md`)
 *Requiere: Token de Administrador para crear/editar/eliminar*
