@@ -26,7 +26,7 @@ ecommerce-api-videogames/
 ├── package.json          # Metadatos del proyecto y dependencias
 ├── package-lock.json     # Árbol de versiones de dependencias exactas
 ├── server.js             # Punto de entrada principal de la aplicación y configuración de Express
-├── documentation/        # Directorio de documentación (Donde se aloja este documento)
+├── documentation/        # Directorio de documentación (Incluye este documento y guías de pruebas de Postman)
 ├── logs/                 # Directorio de registros del sistema
 └── src/                  # Código fuente de la API
     ├── config/           # Configuraciones de infraestructura
