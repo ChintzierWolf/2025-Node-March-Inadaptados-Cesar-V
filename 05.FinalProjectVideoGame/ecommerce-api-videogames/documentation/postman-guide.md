@@ -80,7 +80,16 @@ Ahora vamos a crear una subcategoría "Xbox" que pertenezca a "Consolas". En el 
 
 ---
 
-## 4. UPDATE (Actualizar una Categoría)
+## 4. READ (Obtener una Categoría por ID)
+**Método:** `GET`
+**URL:** `http://localhost:3000/api/categories/categories/AQUI_PEGA_EL_ID_DE_LA_CATEGORIA`
+*(Esta ruta es pública, no requiere token).*
+
+Al enviar esta petición, POSTMAN te responderá con los detalles únicos de esa categoría en específico. Es útil para confirmar que la información guardada es correcta.
+
+---
+
+## 5. UPDATE (Actualizar una Categoría)
 **Método:** `PUT`
 **URL:** `http://localhost:3000/api/categories/categories/AQUI_PEGA_EL_ID_A_EDITAR`
 
@@ -95,7 +104,7 @@ Si te equivocaste en un nombre o quieres actualizar la imagen, usa `PUT` con la 
 
 ---
 
-## 5. DELETE (Borrar una Categoría)
+## 6. DELETE (Borrar una Categoría)
 **Método:** `DELETE`
 **URL:** `http://localhost:3000/api/categories/categories/AQUI_PEGA_EL_ID_A_BORRAR`
 

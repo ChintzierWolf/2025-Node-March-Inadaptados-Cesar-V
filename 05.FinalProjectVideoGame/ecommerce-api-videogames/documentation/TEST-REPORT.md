@@ -13,8 +13,8 @@ Este documento sirve como bitácora para llevar un control del progreso de las p
 - [x] **POST** `/api/categories/categories` - Crear categoría principal (ej. Videojuegos).
 - [x] **POST** `/api/categories/categories` - Crear subcategoría (ej. Xbox, con `parentCategory`).
 - [x] **GET** `/api/categories/categories` - Obtener todas las categorías.
-- [ ] **GET** `/api/categories/categories/:id` - Obtener una categoría por ID.
-- [ ] **PUT** `/api/categories/categories/:id` - Actualizar una categoría.
+- [x] **GET** `/api/categories/categories/:id` - Obtener una categoría por ID.
+- [x] **PUT** `/api/categories/categories/:id` - Actualizar una categoría.
 - [x] **DELETE** `/api/categories/categories/:id` - Eliminar una categoría.
 
 ## 3. 🎮 Productos (`postman-products-guide.md`)
