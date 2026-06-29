@@ -1,5 +1,6 @@
 import errorHandler from '../middlewares/errorHandler.js';
 import Order from '../models/order.js';
+import ShippingAddress from '../models/shippingAddress.js';
 
 async function getOrders(req, res) {
   try {

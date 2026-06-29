@@ -37,9 +37,9 @@ Este documento sirve como bitácora para llevar un control del progreso de las p
 - [x] **GET** `/api/notifications/notifications/user/:userId` - Consultar notificaciones del usuario.
 - [x] **PATCH** `/api/notifications/notifications/:id/mark-read` - Marcar notificación como leída.
 
-## 6. 📑 Pedidos y Métodos de Pago (Próximamente)
-- [ ] **POST** `/api/payment-methods/payment-methods` - Registrar un método de pago.
-- [ ] **POST** `/api/orders/orders` - Crear una orden de compra desde el carrito.
+## 6. 📑 Pedidos y Métodos de Pago
+- [x] **POST** `/api/payment-methods/payment-methods` - Registrar un método de pago.
+- [x] **POST** `/api/orders` - Crear una orden de compra desde el carrito.
 
 ---
 **Notas Adicionales / Observaciones de Pruebas:**
