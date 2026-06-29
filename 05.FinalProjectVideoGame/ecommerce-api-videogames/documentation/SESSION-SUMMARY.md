@@ -25,12 +25,14 @@ Se ha cubierto con éxito todo el ciclo de comercio electrónico (E-Commerce):
 2. Gestión de inventario y catálogo (Categorías y Productos).
 3. Simulación de compras (Carrito de compras, Notificaciones, Registro de tarjetas y Órdenes de compra).
 
-### 🚀 Siguientes Pasos (Próxima Sesión)
-1. **Pruebas del Módulo de Direcciones:**
-   - Retomar `TEST-REPORT.md` (Apartado 7) para validar en Postman la creación de direcciones reales.
-   - Enlazar la dirección generada con una nueva Orden de Compra para validar el flujo final sin IDs simulados.
-2. **Integración Frontend:**
-   - Una vez concluida esta última prueba adicional, el proyecto estará sólidamente preparado para integrarse con un entorno Frontend (React, Next.js, Angular, etc.) que consuma esta API.
+### 🚀 Siguientes Pasos (Próxima Fase)
+Con las pruebas del módulo de Direcciones y Órdenes finalizadas exitosamente, el testeo manual en Postman se ha **completado al 100%**. El backend ha alcanzado un estado sólido, maduro y funcional.
+
+1. **Integración Frontend (Prioridad 1):**
+   - El proyecto está completamente preparado para integrarse con un entorno Frontend (React, Next.js, Angular, etc.) que consuma esta API para dar vida a la interfaz visual del e-commerce.
+2. **Mejoras a Futuro (Opcional):**
+   - **Pruebas Automatizadas:** Configurar librerías como Jest y Supertest para automatizar los flujos (el script `test` actualmente está vacío).
+   - **Despliegue (Deploy):** Preparar las variables de entorno para producción y hospedar la API en plataformas en la nube (Render, Railway, Heroku) junto a un cluster en MongoDB Atlas.
 
 ---
 **💡 Tip para la próxima sesión:** 

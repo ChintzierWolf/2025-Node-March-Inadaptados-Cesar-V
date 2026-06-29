@@ -42,9 +42,12 @@ Este documento sirve como bitácora para llevar un control del progreso de las p
 - [x] **POST** `/api/orders` - Crear una orden de compra desde el carrito.
 
 ## 7. 🏠 Direcciones de Envío (`postman-shippingAddress-guide.md`)
-- [ ] **POST** `/api/shipping-addresses` - Registrar una nueva dirección real para el cliente.
-- [ ] **GET** `/api/shipping-addresses/user/:userId` - Consultar las direcciones asociadas al usuario.
-- [ ] **POST** `/api/orders` - Re-test: Crear una orden de compra utilizando el ID de la dirección real recién creada.
+- [x] **POST** `/api/shipping-addresses` - Registrar una nueva dirección real para el cliente.
+- [x] **GET** `/api/shipping-addresses/user/:userId` - Consultar las direcciones asociadas al usuario.
+- [x] **POST** `/api/orders` - Re-test: Crear una orden de compra utilizando el ID de la dirección real recién creada.
+
+---
+**🏆 ¡PRUEBAS COMPLETADAS AL 100%!** Todas las rutas y controladores clave del e-commerce han sido verificados satisfactoriamente.
 
 ---
 **Notas Adicionales / Observaciones de Pruebas:**
