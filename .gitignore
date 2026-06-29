@@ -21,3 +21,8 @@ package-lock.json
 .env.production.local
 
 npm-debug.log*
+
+# logs and postman collections
+logs/
+*.log
+*.postman_collection.json
