@@ -68,6 +68,7 @@ const productSchema = new mongoose.Schema(
         'Strategy',
         'Sports',
         'Puzzle',
+        'Racing',
       ],
       required: [true, 'El género es obligatorio'],
     },

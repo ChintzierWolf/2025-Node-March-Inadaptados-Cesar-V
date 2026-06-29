@@ -56,3 +56,58 @@ Use mongoose.model(name, schema)
     at model.populate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:4621:24)
     at addProductToCart (file:///C:/Users/C%C3%A9sar/Desktop/Indptados/Mayo%202025/My_Repositories_GITHUB/2025-Node-March-Inadaptados-Cesar-V/05.FinalProjectVideoGame/ecommerce-api-videogames/src/controllers/cartController.js:146:16)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+2026-06-28T20:53:17.737Z | POST /api/products/products | Product validation failed: genre: `Racing` is not a valid enum value for path `genre`. | ValidationError: Product validation failed: genre: `Racing` is not a valid enum value for path `genre`.
+    at Document.invalidate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3115:17
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-06-29T00:54:15.430Z | POST /api/products/products | Product validation failed: genre: `Racing` is not a valid enum value for path `genre`. | ValidationError: Product validation failed: genre: `Racing` is not a valid enum value for path `genre`.
+    at Document.invalidate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3115:17
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-06-29T00:54:59.196Z | POST /api/products/products | Product validation failed: genre: `Racing` is not a valid enum value for path `genre`. | ValidationError: Product validation failed: genre: `Racing` is not a valid enum value for path `genre`.
+    at Document.invalidate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3115:17
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-06-29T00:55:16.931Z | POST /api/products/products | Product validation failed: genre: `Racing` is not a valid enum value for path `genre`. | ValidationError: Product validation failed: genre: `Racing` is not a valid enum value for path `genre`.
+    at Document.invalidate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3115:17
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-06-29T00:59:36.510Z | POST /api/products/products | Product validation failed: genre: `Racing` is not a valid enum value for path `genre`. | ValidationError: Product validation failed: genre: `Racing` is not a valid enum value for path `genre`.
+    at Document.invalidate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3115:17
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-06-29T01:00:28.109Z | POST /api/products/products | Product validation failed: genre: `Racing` is not a valid enum value for path `genre`. | ValidationError: Product validation failed: genre: `Racing` is not a valid enum value for path `genre`.
+    at Document.invalidate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3115:17
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-06-29T01:00:31.261Z | POST /api/products/products | Product validation failed: genre: `Racing` is not a valid enum value for path `genre`. | ValidationError: Product validation failed: genre: `Racing` is not a valid enum value for path `genre`.
+    at Document.invalidate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3115:17
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-06-29T01:00:33.057Z | POST /api/products/products | Product validation failed: genre: `Racing` is not a valid enum value for path `genre`. | ValidationError: Product validation failed: genre: `Racing` is not a valid enum value for path `genre`.
+    at Document.invalidate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3115:17
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-06-29T01:00:34.942Z | POST /api/products/products | Product validation failed: genre: `Racing` is not a valid enum value for path `genre`. | ValidationError: Product validation failed: genre: `Racing` is not a valid enum value for path `genre`.
+    at Document.invalidate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3115:17
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-06-29T01:01:53.951Z | POST /api/products/products | Product validation failed: genre: `Racing` is not a valid enum value for path `genre`. | ValidationError: Product validation failed: genre: `Racing` is not a valid enum value for path `genre`.
+    at Document.invalidate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3115:17
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+2026-06-29T01:01:56.219Z | POST /api/products/products | Product validation failed: genre: `Racing` is not a valid enum value for path `genre`. | ValidationError: Product validation failed: genre: `Racing` is not a valid enum value for path `genre`.
+    at Document.invalidate (C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3354:32)
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\document.js:3115:17
+    at C:\Users\César\Desktop\Indptados\Mayo 2025\My_Repositories_GITHUB\2025-Node-March-Inadaptados-Cesar-V\05.FinalProjectVideoGame\ecommerce-api-videogames\node_modules\mongoose\lib\schemaType.js:1410:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)

@@ -59,14 +59,24 @@ async function getProductByCategory(req, res, next) {
 
 async function createProduct(req, res, next) {
   try {
-    const { name, description, price, stock, imagesUrl, category, platform, genre, releaseDate } = req.body;
+    // Detectamos si req.body es un Arreglo (Bulk Insert) o un Objeto individual
+    const isArray = Array.isArray(req.body);
+    const productsData = isArray ? req.body : [req.body];
 
-    if (!name || !description || !price || !stock || !imagesUrl || !category || !platform || !genre || !releaseDate) {
-      return res.status(400).json({ error: 'All fields are required' });
+    // Validamos todos los productos de la lista
+    for (const product of productsData) {
+      const { name, description, price, stock, imagesUrl, category, platform, genre, releaseDate } = product;
+      // Nota: stock se valida con !== undefined para permitir stock en 0
+      if (!name || !description || !price || stock === undefined || !imagesUrl || !category || !platform || !genre || !releaseDate) {
+        return res.status(400).json({ error: 'All fields are required for each product' });
+      }
     }
 
-    const newProduct = await Product.create({ name, description, price, stock, imagesUrl, category, platform, genre, releaseDate });
-    res.status(201).json(newProduct);
+    // Usamos insertMany para guardar todo de una vez (funciona con 1 o 100 elementos)
+    const newProducts = await Product.insertMany(productsData);
+
+    // Retornamos la respuesta con el mismo formato que se recibió (Arreglo u Objeto)
+    res.status(201).json(isArray ? newProducts : newProducts[0]);
   } catch (error) {
     next(error);
   }

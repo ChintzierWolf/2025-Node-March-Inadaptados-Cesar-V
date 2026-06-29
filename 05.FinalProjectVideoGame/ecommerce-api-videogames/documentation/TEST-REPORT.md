@@ -19,12 +19,12 @@ Este documento sirve como bitácora para llevar un control del progreso de las p
 
 ## 3. 🎮 Productos (`postman-products-guide.md`)
 *Requiere: Token de Administrador para crear/editar/eliminar*
-- [ ] **POST** `/api/products/products` - Crear un nuevo producto (Consola).
-- [ ] **POST** `/api/products/products` - Crear un nuevo producto (Videojuego).
-- [ ] **GET** `/api/products/products` - Obtener todos los productos.
-- [ ] **GET** `/api/products/products/:id` - Obtener un producto por ID.
-- [ ] **PUT** `/api/products/products/:id` - Actualizar información de un producto.
-- [ ] **DELETE** `/api/products/products/:id` - Eliminar un producto.
+- [x] **POST** `/api/products/products` - Crear un nuevo producto (Consola).
+- [x] **POST** `/api/products/products` - Crear un nuevo producto (Videojuego).
+- [x] **GET** `/api/products/products` - Obtener todos los productos.
+- [x] **GET** `/api/products/products/:id` - Obtener un producto por ID.
+- [x] **PUT** `/api/products/products/:id` - Actualizar información de un producto.
+- [x] **DELETE** `/api/products/products/:id` - Eliminar un producto.
 
 ## 4. 🛒 Carrito de Compras (`postman-cart-guide.md`)
 *Requiere: `userId` (Obtenido del Login) y `productId` (Obtenido de Productos)*
