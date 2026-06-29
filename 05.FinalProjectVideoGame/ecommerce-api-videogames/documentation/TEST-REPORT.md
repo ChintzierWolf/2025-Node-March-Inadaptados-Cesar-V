@@ -28,9 +28,9 @@ Este documento sirve como bitácora para llevar un control del progreso de las p
 
 ## 4. 🛒 Carrito de Compras (`postman-cart-guide.md`)
 *Requiere: `userId` (Obtenido del Login) y `productId` (Obtenido de Productos)*
-- [ ] **POST** `/api/cart/cart/add-product` - Agregar un primer producto al carrito.
-- [ ] **POST** `/api/cart/cart/add-product` - Agregar el mismo producto para verificar que la cantidad (`quantity`) aumente.
-- [ ] **GET** `/api/cart/cart/user/:userId` - Consultar el carrito completo del usuario.
+- [x] **POST** `/api/cart/cart/add-product` - Agregar un primer producto al carrito.
+- [x] **POST** `/api/cart/cart/add-product` - Agregar el mismo producto para verificar que la cantidad (`quantity`) aumente.
+- [x] **GET** `/api/cart/cart/user/:userId` - Consultar el carrito completo del usuario.
 
 ## 5. 📬 Notificaciones (Opcional / Próximamente)
 - [ ] **GET** `/api/notifications/notifications/user/:userId` - Consultar notificaciones del usuario.

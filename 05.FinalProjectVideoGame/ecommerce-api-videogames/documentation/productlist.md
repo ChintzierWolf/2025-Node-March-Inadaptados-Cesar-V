@@ -177,3 +177,41 @@ Accesorios Xbox
 "releaseDate": "2020-05-20"
 }
 ]
+
+Más productos
+
+[
+{
+"name": "Tarjeta Xbox Game Pass Ultimate",
+"description": "Acceso a cientos de juegos y Xbox Live Gold.",
+"price": 14.99,
+"stock": 500,
+"imagesUrl": ["https://placehold.co/800x600.png"],
+"category": "ID_MAS_PRODUCTOS",
+"platform": "Xbox",
+"genre": "Service",
+"releaseDate": "2021-01-01"
+},
+{
+"name": "PlayStation Plus 12 Meses",
+"description": "Suscripción anual para juegos online y gratuitos.",
+"price": 59.99,
+"stock": 400,
+"imagesUrl": ["https://placehold.co/800x600.png"],
+"category": "ID_MAS_PRODUCTOS",
+"platform": "PlayStation",
+"genre": "Service",
+"releaseDate": "2021-01-01"
+},
+{
+"name": "Nintendo Switch Online 12 Meses",
+"description": "Acceso a juegos clásicos y multijugador online.",
+"price": 19.99,
+"stock": 300,
+"imagesUrl": ["https://placehold.co/800x600.png"],
+"category": "ID_MAS_PRODUCTOS",
+"platform": "Nintendo",
+"genre": "Service",
+"releaseDate": "2021-01-01"
+}
+]

@@ -13,17 +13,13 @@ El proyecto cuenta con un backend robusto en **Node.js, Express y MongoDB**. La 
    - **Autenticación (100%)**: Registro exitoso de usuarios con roles `admin` y `customer`, y validación de inicio de sesión obteniendo los Tokens respectivos.
    - **Categorías (100%)**: Se concluyeron exitosamente todas las pruebas de creación, lectura, actualización y eliminación (CRUD completo).
    - **Productos (100%)**: Inserción masiva e individual de consolas, juegos y accesorios; consultas (todas y por ID), actualización y eliminación verificadas con éxito.
+   - **Carrito de Compras (100%)**: Validado el agregar productos al carrito, el autoincremento de cantidad y la consulta del carrito completo por usuario.
 
 ## 🚧 Desarrollo y Pruebas Pendientes (Próxima Sesión)
 
 Para continuar, deberás retomar el archivo `TEST-REPORT.md` y completar las siguientes pruebas en Postman:
 
-### 1. Módulo de Carrito de Compras
-- [ ] Como cliente (`customer`), agregar un producto al carrito usando su `productId`.
-- [ ] Agregar el mismo producto para verificar que la cantidad (`quantity`) se incremente correctamente.
-- [ ] Consultar el carrito completo del usuario y verificar que se reflejen los productos agregados.
-
-### 2. Siguientes Pasos del Backend (Opcional/Futuro)
+### 1. Siguientes Pasos del Backend (Opcional/Futuro)
 Una vez finalizadas las pruebas principales, se podrá continuar con:
 - Pruebas del sistema de **Notificaciones**.
 - Configuración y pruebas de **Órdenes de Venta (Orders)** y **Métodos de Pago**.
