@@ -32,8 +32,10 @@ Este documento sirve como bitácora para llevar un control del progreso de las p
 - [x] **POST** `/api/cart/cart/add-product` - Agregar el mismo producto para verificar que la cantidad (`quantity`) aumente.
 - [x] **GET** `/api/cart/cart/user/:userId` - Consultar el carrito completo del usuario.
 
-## 5. 📬 Notificaciones (Opcional / Próximamente)
-- [ ] **GET** `/api/notifications/notifications/user/:userId` - Consultar notificaciones del usuario.
+## 5. 📬 Notificaciones
+- [x] **POST** `/api/notifications/notifications` - Crear una notificación manual.
+- [x] **GET** `/api/notifications/notifications/user/:userId` - Consultar notificaciones del usuario.
+- [x] **PATCH** `/api/notifications/notifications/:id/mark-read` - Marcar notificación como leída.
 
 ## 6. 📑 Pedidos y Métodos de Pago (Próximamente)
 - [ ] **POST** `/api/payment-methods/payment-methods` - Registrar un método de pago.

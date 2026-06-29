@@ -14,15 +14,16 @@ El proyecto cuenta con un backend robusto en **Node.js, Express y MongoDB**. La 
    - **Categorías (100%)**: Se concluyeron exitosamente todas las pruebas de creación, lectura, actualización y eliminación (CRUD completo).
    - **Productos (100%)**: Inserción masiva e individual de consolas, juegos y accesorios; consultas (todas y por ID), actualización y eliminación verificadas con éxito.
    - **Carrito de Compras (100%)**: Validado el agregar productos al carrito, el autoincremento de cantidad y la consulta del carrito completo por usuario.
+   - **Notificaciones (100%)**: Creación manual, consulta por usuario y marcado de lectura completados exitosamente.
 
 ## 🚧 Desarrollo y Pruebas Pendientes (Próxima Sesión)
 
 Para continuar, deberás retomar el archivo `TEST-REPORT.md` y completar las siguientes pruebas en Postman:
 
-### 1. Siguientes Pasos del Backend (Opcional/Futuro)
-Una vez finalizadas las pruebas principales, se podrá continuar con:
-- Pruebas del sistema de **Notificaciones**.
-- Configuración y pruebas de **Órdenes de Venta (Orders)** y **Métodos de Pago**.
+### 1. Módulo de Pedidos y Métodos de Pago
+Para finalizar por completo el flujo de la API, se debe continuar con la guía correspondiente para:
+- Registrar un método de pago.
+- Crear una orden de compra tomando los artículos del carrito.
 - Si el backend se considera estable, el siguiente gran paso del proyecto sería la **integración con un Frontend** que consuma esta API.
 
 ---

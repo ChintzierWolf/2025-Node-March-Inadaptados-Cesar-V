@@ -1,7 +1,7 @@
 import Notification from '../models/notification.js';
 import errorHandler from '../middlewares/errorHandler.js';
 
-async function getNotifications(req, res) {
+async function getNotifications(req, res, next) {
   try {
     const notifications = await Notification.find().populate('user').sort({ message: 1 });
     res.json(notifications);
@@ -10,7 +10,7 @@ async function getNotifications(req, res) {
   }
 }
 
-async function getNotificationById(req, res) {
+async function getNotificationById(req, res, next) {
   try {
     const id = req.params.id;
     const notification = await Notification.findById(id).populate('user');
@@ -23,7 +23,7 @@ async function getNotificationById(req, res) {
   }
 }
 
-async function getNotificationByUser(req, res) {
+async function getNotificationByUser(req, res, next) {
   try {
     const userId = req.params.userId;
     const notifications = await Notification.find({ user: userId }).populate('user').sort({ message: 1 });
@@ -36,7 +36,7 @@ async function getNotificationByUser(req, res) {
   }
 }
 
-async function createNotification(req, res) {
+async function createNotification(req, res, next) {
   try {
     const { user, message } = req.body;
     if (!user || !message) {
@@ -55,7 +55,7 @@ async function createNotification(req, res) {
   }
 }
 
-async function updateNotification(req, res) {
+async function updateNotification(req, res, next) {
   try {
     const { id } = req.params;
     const { message, isRead } = req.body;
@@ -75,7 +75,7 @@ async function updateNotification(req, res) {
   }
 }
 
-async function deleteNotification(req, res) {
+async function deleteNotification(req, res, next) {
   try {
     const { id } = req.params;
     const deletedNotification = await Notification.findByIdAndDelete(id);
@@ -90,7 +90,7 @@ async function deleteNotification(req, res) {
   }
 }
 
-async function markAsRead(req, res) {
+async function markAsRead(req, res, next) {
   try {
     const { id } = req.params;
     const notification = await Notification.findByIdAndUpdate(
@@ -109,7 +109,7 @@ async function markAsRead(req, res) {
   }
 }
 
-async function markAllAsReadByUser(req, res) {
+async function markAllAsReadByUser(req, res, next) {
   try {
     const { userId } = req.params;
     const result = await Notification.updateMany(
@@ -126,7 +126,7 @@ async function markAllAsReadByUser(req, res) {
   }
 }
 
-async function getUnreadNotificationsByUser(req, res) {
+async function getUnreadNotificationsByUser(req, res, next) {
   try {
     const userId = req.params.userId;
     const notifications = await Notification.find({
