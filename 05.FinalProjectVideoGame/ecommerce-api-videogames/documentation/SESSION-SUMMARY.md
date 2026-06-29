@@ -25,8 +25,12 @@ Se ha cubierto con éxito todo el ciclo de comercio electrónico (E-Commerce):
 2. Gestión de inventario y catálogo (Categorías y Productos).
 3. Simulación de compras (Carrito de compras, Notificaciones, Registro de tarjetas y Órdenes de compra).
 
-### 🚀 Siguientes Pasos (Próxima Fase del Proyecto)
-- El siguiente gran paso natural para este proyecto es la **creación e integración de un Frontend** (como React, Next.js, Angular o Vue) que consuma y le dé vida visual a esta API robusta que acabamos de dejar 100% validada.
+### 🚀 Siguientes Pasos (Próxima Sesión)
+1. **Pruebas del Módulo de Direcciones:**
+   - Retomar `TEST-REPORT.md` (Apartado 7) para validar en Postman la creación de direcciones reales.
+   - Enlazar la dirección generada con una nueva Orden de Compra para validar el flujo final sin IDs simulados.
+2. **Integración Frontend:**
+   - Una vez concluida esta última prueba adicional, el proyecto estará sólidamente preparado para integrarse con un entorno Frontend (React, Next.js, Angular, etc.) que consuma esta API.
 
 ---
 **💡 Tip para la próxima sesión:** 

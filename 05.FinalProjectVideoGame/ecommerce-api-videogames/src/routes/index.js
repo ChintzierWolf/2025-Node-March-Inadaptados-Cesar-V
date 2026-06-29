@@ -7,6 +7,7 @@ import notificationRoutes from './notificationRoutes.js';
 import orderRoutes from './orderRoutes.js';
 import paymentMethodRoutes from './paymentMethodRoutes.js';
 import productRoutes from './productRoutes.js';
+import shippingAddressRoutes from './shippingAddressRoutes.js';
 
 const router = express.Router();
 
@@ -23,7 +24,8 @@ router.use('/categories', categoryRoutes);
 // 📬 Notificaciones
 router.use('/notifications', notificationRoutes);
 
-// 📑 Pedidos y pagos
+// 📑 Pedidos, direcciones y pagos
+router.use('/shipping-addresses', shippingAddressRoutes);
 router.use('/orders', orderRoutes);
 router.use('/payment-methods', paymentMethodRoutes);
 
