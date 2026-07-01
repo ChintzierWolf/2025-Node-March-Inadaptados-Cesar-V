@@ -1,8 +1,0 @@
-CREATE DATABASE BookLibrary;
-USE BookLibrary;
-
-CREATE TABLE Books (
-	id INT PRIMARY KEY AUTO_INCREMENT,
-    title VARCHAR(100) NOT NULL,
-    autor VARCHAR(100) NOT NULL
-);
